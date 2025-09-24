@@ -18,6 +18,10 @@ distances = {}
 
 print(distances)
 
+def distanc(sity1, sity2):
+    x1, y1 = sites[sity1]
+    x2, y2 = sites[sity2]
+    return abs(x1 - x2) + abs(y1 - y2)
 
 
 
